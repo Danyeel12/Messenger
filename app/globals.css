@@ -1,0 +1,22 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+html,
+body,
+:root {
+  height: 100%;
+}
+
+.social-button-hover {
+  transition: background-color 0.3s ease;
+  background-color: transparent; 
+  background-image: linear-gradient(to right, #22c55e 50%, transparent 50%);
+  background-size: 200% 100%;
+  background-position: right bottom;
+}
+
+.social-button-hover:hover {
+  background-color: #22c55e; 
+  background-position: left bottom;
+}
